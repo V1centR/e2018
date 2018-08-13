@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomelistComponent implements OnInit {
 
-  constructor() { }
+	const initItems: number;
+	constructor() { }
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+
+		this.listaTeste();
+	}
+
+	listaTeste(): void{
+
+		this.initItems = 10;
+		console.log("Items number:: " + this.initItems);
+
+	}
 
 }
