@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomelistComponent } from './homelist/homelist.component';
+import { HomelistComponent } from './homelist';
 
 
 const routes: Routes = [

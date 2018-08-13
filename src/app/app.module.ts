@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HomelistComponent } from './homelist/homelist.component';
+import { HomelistComponent } from './homelist';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

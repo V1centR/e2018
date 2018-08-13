@@ -1,8 +1,8 @@
-[{"elegiveis" : 
-	{ 
-		30: {
+[{
+	"elegiveis": {
+		"30": {
 
-			"id": 1,
+			"id": "1",
 			"nome": "José 1",
 			"partido": "30",
 			"vice": "cand vice",
@@ -11,11 +11,11 @@
 			"numero": "30",
 			"avatar": "images/ua8s7dpp.png",
 			"avatarVice": "images/ua8s7dha.png"
-			},
+		},
 
-		13: {
+		"13": {
 
-			"id": 2,
+			"id": "2",
 			"nome": "Agnaldo 1",
 			"partido": "30",
 			"vice": "cand vice",
@@ -24,10 +24,10 @@
 			"numero": "30",
 			"avatar": "images/ua8s7dpp.png",
 			"avatarVice": "images/ua8s7dha.png"
-			},
+		},
 
-		45: {
-			"id": 3,
+		"45": {
+			"id": "3",
 			"nome": "Pedro 1",
 			"partido": "30",
 			"vice": "cand vice",
@@ -36,6 +36,6 @@
 			"numero": "30",
 			"avatar": "images/ua8s7dpp.png",
 			"avatarVice": "images/ua8s7dha.png"
-		}		
+		}
 	}
 }]
