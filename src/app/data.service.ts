@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from '';
+import { Observable } from 'rxjs';
+// import { Data } from './list-candidatos.json';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,7 @@ export class DataService {
   	}
 
   	public getJSON(): Observable<any> {
+
         return this.http.get("./assets/list-candidatos.json");
 	}
 
