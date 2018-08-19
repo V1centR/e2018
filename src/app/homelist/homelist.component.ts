@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs';
+import { Candidatos } from './model';
 import * as cdtList from "./list-candidatos.json";
 
 @Component({
@@ -12,23 +13,26 @@ import * as cdtList from "./list-candidatos.json";
 export class HomelistComponent implements OnInit {
 
 	
-	candidatos$: Object;
+	candidatos: Candidatos[];
 	private initItems: number;
 
 	constructor(private data: DataService) { }
 
 	ngOnInit() {
 
-		this.listaTeste();
+		this.candidatos = this.listAll();
 	}
 
-	listaTeste(): void{
+	listAll(): Candidatos[] {
 
+		//console.log(">> " + cdtList);
 
-		console.log(">> " + JSON.stringify(cdtList.elegiveis));
+		this.DataService.getJSON(this.pageNumber).subscribe(arg => this.users = arg);
 
-		this.initItems = 10;
-		console.log("Items number:: " + this.initItems);
+		//this.initItems = 10;
+		//console.log("Items number:: " + this.initItems);
+
+		return this.data.getJSON();
 	}
 
 }
