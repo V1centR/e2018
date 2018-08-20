@@ -5,16 +5,20 @@ import {HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomelistComponent } from './homelist';
 import { AppRoutingModule } from './app-routing.module';
+import { HomeModule } from './home';
+import { FrontComponent } from './homelist/front/front.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomelistComponent
+    HomelistComponent,
+    FrontComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
