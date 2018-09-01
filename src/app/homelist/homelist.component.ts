@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs';
 import { Candidatos } from './model';
-import * as cdtList from "./list-candidatos.json";
+//import * as cdtList from "./list-candidatos.json";
 
 @Component({
   selector: 'app-homelist',
@@ -13,26 +13,22 @@ import * as cdtList from "./list-candidatos.json";
 export class HomelistComponent implements OnInit {
 
 	
-	candidatos: Candidatos[];
-	private initItems: number;
+	candidatos;
 
-	constructor(private data: DataService) { }
+	constructor(private dataService: DataService) { }
 
 	ngOnInit() {
 
-		this.candidatos = this.listAll();
+		this.listAll();
 	}
 
-	listAll(): Candidatos[] {
+	listAll() {
 
-		//console.log(">> " + cdtList);
+		console.log("List All loaded!:: ");
 
-		this.DataService.getJSON(this.pageNumber).subscribe(arg => this.users = arg);
+		this.dataService.getCandidatos().subscribe(response => this.candidatos = response);
 
-		//this.initItems = 10;
-		//console.log("Items number:: " + this.initItems);
-
-		return this.data.getJSON();
+		console.log("Items loaded:: ");
 	}
 
 }

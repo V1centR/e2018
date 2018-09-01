@@ -4,7 +4,10 @@ import {HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomelistComponent } from './homelist';
+import { HomeModule } from './home';
 import { AppRoutingModule } from './app-routing.module';
+
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    HomeModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
