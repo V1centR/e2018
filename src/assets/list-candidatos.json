@@ -2,36 +2,55 @@
 	{
 		"id": 1,
 		"nome": "José 1",
-		"partido": "30",
-		"vice": "cand vice",
-		"idade": "60",
-		"projeto": "Segurança",
-		"numero": "30",
+		"partido": "AAA",
+		"vice": "Cand vice",
+		"idade": "33",
+		"projeto": "Segurança, Educação, Saúde, Habitação",
+		"numero": "77",
 		"avatar": "images/ua8s7dpp.png",
-		"avatarVice": "images/ua8s7dha.png"
+		"avatarVice": "images/ua8s7dha.png",
+		"votos": 888.888,
+		"status": 1
 	},
 
 	{
 		"id": 2,
-		"nome": "Agnaldo 1",
-		"partido": "30",
-		"vice": "cand vice",
-		"idade": "60",
-		"projeto": "Segurança",
-		"numero": "30",
+		"nome": "João",
+		"partido": "EEE",
+		"vice": "Cand vice",
+		"idade": "33",
+		"projeto": "Segurança, Educação, Saúde, Habitação",
+		"numero": "77",
 		"avatar": "images/ua8s7dpp.png",
-		"avatarVice": "images/ua8s7dha.png"
+		"avatarVice": "images/ua8s7dha.png",
+		"votos": 888.888,
+		"status": 1
 	},
 
 	{
 		"id": 3,
-		"nome": "Pedro 1",
-		"partido": "30",
-		"vice": "cand vice",
-		"idade": "60",
-		"projeto": "Segurança",
-		"numero": "30",
+		"nome": "Inácio",
+		"partido": "PPP",
+		"vice": "Cand vice",
+		"idade": "33",
+		"projeto": "Segurança, Educação, Saúde, Habitação",
+		"numero": "77",
 		"avatar": "images/ua8s7dpp.png",
-		"avatarVice": "images/ua8s7dha.png"
+		"avatarVice": "images/ua8s7dha.png",
+		"votos": 888.888,
+		"status": 1
+	},
+	{
+		"id": 4,
+		"nome": "Maria",
+		"partido": "QQQ",
+		"vice": "Cand vice",
+		"idade": "33",
+		"projeto": "Segurança, Educação, Saúde, Habitação",
+		"numero": "77",
+		"avatar": "images/ua8s7dpp.png",
+		"avatarVice": "images/ua8s7dha.png",
+		"votos": 888.888,
+		"status": 1
 	}
 ]

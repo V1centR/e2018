@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomelistComponent } from './homelist';
 import { HomeModule } from './home';
 import { AppRoutingModule } from './app-routing.module';
+import { AvatarModule } from 'ngx-avatar';
 
 import {TableModule} from 'primeng/table';
 
@@ -19,7 +20,8 @@ import {TableModule} from 'primeng/table';
     AppRoutingModule,
     HttpClientModule,
     HomeModule,
-    TableModule
+    TableModule,
+    AvatarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
