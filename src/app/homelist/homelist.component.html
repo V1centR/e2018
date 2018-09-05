@@ -1,17 +1,11 @@
+<div style="margin-bottom:20px; border: 1px solid #777;"></div>
 <p-table [value]="candidatos">
-    <ng-template pTemplate="header">
-        <tr>
-            <th></th>
-            <th>Partido</th>
-            <th>Numero</th>
-            <th>Foto de campanha</th>
-        </tr>
-    </ng-template>
     <ng-template pTemplate="body" let-item>
-        <tr>
+        <tr style="background-color:#f5f5f5;">
 			<td><ngx-avatar size="75" src="assets/generic-avatar.png"></ngx-avatar></td>
-            <td>{{item.nome}}</td>
-			<td>{{item.partido}}</td>
+            <td>{{item.nome}}<br>
+                {{item.partido}}
+            </td>
 			<td>{{item.numero}}</td>
         </tr>
     </ng-template>
