@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs';
 import { Candidatos } from './model';
-//import * as cdtList from "./list-candidatos.json";
 
 @Component({
   selector: 'app-homelist',
@@ -14,12 +13,24 @@ export class HomelistComponent implements OnInit {
 
 	
 	candidatos;
+	setResolution: number;
+	avatarSize: number;
 
 	constructor(private dataService: DataService) { }
 
 	ngOnInit() {
 
+		this.setResolution = window.innerWidth;
+
+		//resize avatar
+		if(this.setResolution <= 375){
+			this.avatarSize = 100;
+		} else if(this.setResolution >= 768){
+			this.avatarSize = 220;
+		}
+
 		this.listAll();
+		console.log("Resolution:: " + window.innerWidth);
 	}
 
 	listAll() {

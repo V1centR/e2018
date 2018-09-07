@@ -7,7 +7,7 @@
 		"idade": "60",
 		"proposta": "Segurança, Redução de ministérios, Combate à corrupção, Saúde, Economia",
 		"numero": "17",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "https://ftp.bocaonews.com.br/fotos/bocao_noticias/188132/IMAGEM_NOTICIA_0.jpg",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "4.654.878"
@@ -21,7 +21,7 @@
 		"idade": "60",
 		"projeto": "Direitos Sociais, Desenvolvimento, Democracia",
 		"numero": "13",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "0",
 		"votos": "0"
@@ -35,7 +35,7 @@
 		"idade": "60",
 		"projeto": "Sustentabilidade, Educação, Saneamento, Cultura, Tecnologia...",
 		"numero": "18",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "3.256.798"
@@ -49,7 +49,7 @@
 		"idade": "73",
 		"projeto": "Segurança, Saúde, Emprego, Educação, Infraestrutura",
 		"numero": "15",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "304.325"
@@ -63,7 +63,7 @@
 		"idade": "65",
 		"projeto": "Segurança, Combate a corrupção, Reforma política, Economia, Educação, Infraestrutura",
 		"numero": "45",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "3.742.336"
@@ -77,7 +77,7 @@
 		"idade": "60",
 		"projeto": "Reformas, Emprego, Habitação, Tecnologia, Educação, Saúde",
 		"numero": "12",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "1.777.149"
@@ -91,7 +91,7 @@
 		"idade": "73",
 		"projeto": "Sociedade, Economia, Instituições",
 		"numero": "30",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "878.145"
@@ -105,7 +105,7 @@
 		"idade": "60",
 		"projeto": "Desenvolvimento, Família, Reformas, Segurança, Educação...",
 		"numero": "27",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "215.233"
@@ -118,7 +118,7 @@
 		"idade": "36",
 		"projeto": "Economia, Desenvolvimento, Instituições, Segurança, Emprego",
 		"numero": "50",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "1"
@@ -131,7 +131,7 @@
 		"idade": "56",
 		"projeto": "Educação, Segurança, Saúde, Previdência, Política externa",
 		"numero": "30",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "157.668"
@@ -144,7 +144,7 @@
 		"idade": "61",
 		"projeto": "Economia, Reformas, Ciência e Tecnologia",
 		"numero": "54",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "77.485"
@@ -157,7 +157,7 @@
 		"idade": "52",
 		"projeto": "Trabalho, Habitação, Saúde",
 		"numero": "16",
-		"avatar": "images/ua8s7dpp.png",
+		"avatar": "assets/generic-avatar.png",
 		"avatarVice": "images/ua8s7dha.png",
 		"status": "1",
 		"votos": "44.223"
